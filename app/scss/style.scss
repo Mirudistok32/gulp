@@ -1,0 +1,63 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+
+body {
+    box-sizing: border-box;
+}
+
+.header {
+    
+    background-color: #ccc;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #ccd;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    ul {
+        list-style: none;
+        display: flex;
+        
+        li {
+            margin-left: 5px;
+           
+        }
+
+    }
+
+    a {
+        text-decoration: none;
+        font: {
+            size: 18px;
+            family: 'Arial';
+            weight: bold
+        }
+        color: #ffc222;
+        padding: 4px;
+        background-color: #6abef7;
+        border: 1px solid #6abef7;
+        &:hover {
+            background-color: rgb(117, 238, 171);
+            border: 1px solid #000;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+/* <<== media always in end =================================================================================================================>> */
+@import "media";

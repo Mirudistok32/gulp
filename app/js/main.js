@@ -1,0 +1,8 @@
+/*All code inner*/
+$(function(){
+
+
+
+
+
+});
